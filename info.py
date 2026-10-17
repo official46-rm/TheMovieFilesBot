@@ -35,17 +35,17 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002470952565'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002224752949')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002471108414'))
 auth_channel = environ.get('AUTH_CHANNEL', '')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002041612661'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002478884839') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002296473971')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/YaduvanshiXsupport') #Support group link ( make sure bot is admin )
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1003543883078'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1003543883078') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1003543883078')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/RM_Bots_Support') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/17")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/22")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink/18")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/RudraMovies4")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/RudraMovies4")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/RMDeveloper4")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "4030dd8b87e40fb381a15ce48c4a56555bed524e")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arlinks.in')
