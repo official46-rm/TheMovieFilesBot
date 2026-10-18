@@ -851,7 +851,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ📸☆', url=f'https://t.me/RMdeveloper4)
+          InlineKeyboardButton('☆📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸☆', url='https://t.me/RMdeveloper4')
         ],[
             InlineKeyboardButton('💎 ᴄᴜsᴛᴏᴍ ᴘʟᴀɴ 💎', callback_data='other')
         ],[
